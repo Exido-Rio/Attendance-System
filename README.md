@@ -26,7 +26,8 @@ Attendance system using face recognition
 ## ABOUT TOOL :
 
 This is repositary use python face recognition moudle to create the datasets of feature from an images and save them to use them and dectect and verify faces later.
-
+I have putted some random images you can remove those from data and images directory both but dont don't remove Names.csv and Attendance.csv .
+It can detect face from picture and webcam and real faces indeed !
 <p align="center"><a href=""><img title="" src=""></a>
 </p>
 
@@ -49,9 +50,11 @@ python3 -m pip install -r requirements.txt
 
 
 ## USAGE :
+To start using it you need to grab close and clear image of a person then put them into images directory and run entry.py which creates the datasets of feature extracted from these images and store them in Data folder.Which decrease the recognition time.
+Then you are good to go just run the recog.py 
 ```
 ex:- "python3 recog.py " To recognize faces
-      "python3 entry.py" To add new entry files to the database 
+     "python3 entry.py" To add new entry files to the database 
 
 Hurray... your attendance system is up and running for use
 
@@ -60,5 +63,4 @@ Hurray... your attendance system is up and running for use
 
 ## CONNECT WITH US :
 
-
-
+<a href="https://github.com/Exido-Rio"><img title="Github" src="https://img.shields.io/badge/EXIDO-RIO-brightgreen?style=for-the-badge&logo=github"></a>
