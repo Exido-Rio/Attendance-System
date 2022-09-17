@@ -52,11 +52,14 @@ python3 -m pip install -r requirements.txt
 ## USAGE :
 To start using it you need to grab close and clear image of a person then put them into images directory and run entry.py which creates the datasets of feature extracted from these images and store them in Data folder.Which decrease the recognition time.
 Then you are good to go just run the recog.py 
+Also once entry have been complted you can delete those images files in the images directory
 ```
-ex:- "python3 recog.py " To recognize faces
-     "python3 entry.py" To add new entry files to the database 
+ex:- "python3 entry.py" :- To add new entry files to the database 
+     "python3 recog.py" :- To recognize faces
+     "python3 main.py" :- If you don't wanna store data set into Data direcotry you can directly used image in images directory for recognition,
+                        but this will be time taking process depending upon your images
 
-Hurray... your attendance system is up and running for use
+Hurray... your attendance system is up and running for use !
 
 ```
 
