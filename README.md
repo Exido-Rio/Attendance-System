@@ -4,16 +4,15 @@ Attendance system using face recognition
 <img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge">
 </p>
 <p align="center">
-<img title="Made in INDIA" src="https://img.shields.io/badge/Tool-The--API-brightgreen">
+<img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Attendance--System-brightgreen">
 <img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
 <img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
 </p>
 <p align="center">
-<img title="The-API" src="">
+<img title="The-API" src="https://github.com/Exido-Rio/Attendance-System/blob/main/need/gif.gif">
 </p>
 <p align="center">
-<a href="https://github.com/Exido-Rio"><img title="Github" src="https://img.shields.io/badge/EXIDO-RIO-brightgreen"></a>
-<a href=""><img title="YouTube" src="https://img.shields.io/badge/YOUTUBE-NOT%20AVAILBLE%20-red?style=for-the-badge&logo=Youtube"></a>
+<a href="https://github.com/Exido-Rio"><img title="Github" src="https://img.shields.io/badge/Creater-Exido--Rio-brightgreen"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Exido-Rio"><img title="Language" src="https://img.shields.io/badge/Made%20with-Python-blue"></a>
@@ -26,7 +25,7 @@ Attendance system using face recognition
 
 ## ABOUT TOOL :
 
-This is repositary which have a api for a social application . It's setup with Oauth authentication and jwt token.
+This is repositary use python face recognition moudle to create the datasets of feature from an images and save them to use them and dectect and verify faces later.
 
 <p align="center"><a href=""><img title="" src=""></a>
 </p>
@@ -40,15 +39,16 @@ This is repositary which have a api for a social application . It's setup with O
 ### REQUIREMENTS :
 * pip
 * python
-
+```
+python3 -m pip install -r requirements.txt
+```
 ## FEATURES :
 * [+] Real time data !
 * [+] Updated maintainence !
 * [+] Easy to use !
 
-## INSTALLATION [Termux] :
 
-* process
+## USAGE :
 ```
 ex:- "python3 recog.py " To recognize faces
       "python3 entry.py" To add new entry files to the database 
@@ -60,9 +60,5 @@ Hurray... your attendance system is up and running for use
 
 ## CONNECT WITH US :
 
-[![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://rebrand.ly/facebookmsnger)
-<a href="https://rebrand.ly/githubprof"><img title="Github" src="https://img.shields.io/badge/-brightgreen?style=for-the-badge&logo=github"></a>
 
 
-## WARNING : 
-***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
