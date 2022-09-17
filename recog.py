@@ -12,6 +12,9 @@ people =[]
 
 def getdata():# To read and data form csv files
     os.chdir('Data')
+    if len(os.listdir())==0:
+        print("No face data exist in the Data Directory")
+        exit()
     for file in  os.listdir():
         if file =='Names.csv':
             continue
@@ -27,6 +30,15 @@ def getdata():# To read and data form csv files
     os.chdir(home)
 
 getdata()
+
+fileName =  "Attendance.csv"
+try:
+    if not os.path.exists(fileName):
+      with open(fileName,'w') as thekey:
+        thekey.write(f'Name,Time,Date\n')
+        print("File " , fileName ,  " Created ") 
+except FileExistsError:
+    print("File" , fileName ,  " already exists")
 
 def attendance(name): # used for attendance
     with open('Attendance.csv', 'r+') as f:
