@@ -29,7 +29,7 @@ def getdata():# To read and data form csv files
 getdata()
 
 def attendance(name): # used for attendance
-    with open('Attendace.csv', 'r+') as f:
+    with open('Attendance.csv', 'r+') as f:
         myCsvList = f.readlines()
         peoplename = []
         for line in myCsvList:
