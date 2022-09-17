@@ -39,7 +39,7 @@ It can detect face from picture and webcam and real faces indeed !
 
 ### REQUIREMENTS :
 * pip
-* python
+* python3
 ```
 python3 -m pip install -r requirements.txt
 ```
