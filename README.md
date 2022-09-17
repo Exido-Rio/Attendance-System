@@ -12,7 +12,7 @@ Attendance system using face recognition
 <img title="The-API" src="https://github.com/Exido-Rio/Attendance-System/blob/main/need/gif.gif">
 </p>
 <p align="center">
-<a href="https://github.com/Exido-Rio"><img title="Github" src="https://img.shields.io/badge/Creater-Exido--Rio-brightgreen"></a>
+<a href="https://github.com/Exido-Rio"><img title="Github" src="https://img.shields.io/badge/Creator-Exido--Rio-brightgreen"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Exido-Rio"><img title="Language" src="https://img.shields.io/badge/Made%20with-Python-blue"></a>
@@ -26,7 +26,7 @@ Attendance system using face recognition
 ## ABOUT TOOL :
 
 This is repositary use python face recognition moudle to create the datasets of feature from an images and save them to use them and dectect and verify faces later.
-I have putted some random images you can remove those from data and images directory both but dont don't remove Names.csv and Attendance.csv .
+I have putted some random images you can remove those from data and images directory both .
 It can detect face from picture and webcam and real faces indeed !
 <p align="center"><a href=""><img title="" src=""></a>
 </p>
