@@ -16,6 +16,15 @@ existing_ppl = []
 
 # To get the list of csv files in Data dir except Names.csv one 
 os.chdir('Data')
+fileName = "Names.csv"
+try:
+    if not os.path.exists(fileName):
+      with open('Names.csv','w') as thekey:
+        thekey.write(f'Name,Time,Date\n')
+        print("File " , fileName ,  " Created ") 
+except FileExistsError:
+    print("File" , fileName ,  " already exists")
+    
 for file in os.listdir():
     if file =='Names.csv':
         continue
