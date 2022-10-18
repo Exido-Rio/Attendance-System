@@ -56,8 +56,6 @@ Also once entry have been complted you can delete those images files in the imag
 ```
 ex:- "python3 entry.py" :- To add new entry files to the database 
      "python3 recog.py" :- To recognize faces
-     "python3 main.py" :- If you don't wanna store data set into Data direcotry you can directly used image in images directory for recognition,
-                        but this will be time taking process depending upon your images
 
 Hurray... your attendance system is up and running for use !
 
