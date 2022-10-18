@@ -28,7 +28,6 @@ Attendance system using face recognition
 This is repositary use python face recognition moudle to create the datasets of feature from an images and save them to use them and dectect and verify faces later.
 I have putted some random images you can remove those from data and images directory both .
 It can detect face from picture and webcam and real faces indeed !
-<p align="center"><a href=""><img title="" src=""></a>
 </p>
 
 ## AVAILABLE ON :
