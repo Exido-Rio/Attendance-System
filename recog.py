@@ -4,11 +4,19 @@ import numpy as np
 import os 
 from datetime import datetime
 from numpy import genfromtxt
+import signal
 
 encoded_list=[]
 home = os.getcwd()
 datafiles = []
 people =[]
+
+
+def KeybordInteruptHandler(signal , frame):
+    print(Fore.YELLOW,"\nKeybordInterupt (ID: {}) has been caught".format(signal),Fore.RESET)
+    exit()
+
+signal.signal(signal.SIGINT, KeybordInteruptHandler)
 
 def getdata():# To read and data form csv files
     os.chdir('Data')
