@@ -17,7 +17,7 @@ Attendance system using face recognition
 <p align="center">
 <a href="https://github.com/Exido-Rio"><img title="Language" src="https://img.shields.io/badge/Made%20with-Python-blue"></a>
 <a href="https://github.com/Exido-Rio"><img title="Followers" src="https://img.shields.io/badge/followers-0-blue?color=blue&style=flat-square"></a>
-<a href="https://github.com/Exido-Rio"><img title="Stars" src="https://img.shields.io/badge/stars-0-red?color=red&style=flat-square"></a>
+<a href="https://github.com/Exido-Rio"><img title="Stars" src="https://img.shields.io/badge/Stars-1-red?color=red&style=flat-square"></a>
 <a href="https://github.com/Exido-Rio"><img title="Forks" src="https://img.shields.io/badge/forks-0-red?color=red&style=flat-square"></a>
 <a href="https://github.com/Exido-Rio"><img title="Watching" src="https://img.shields.io/badge/watchers-1-blue?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/Exido-Rio"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
